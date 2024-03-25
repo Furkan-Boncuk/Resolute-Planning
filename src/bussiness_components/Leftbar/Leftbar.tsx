@@ -10,28 +10,11 @@ import React from "react";
 
 export default function Leftbar() {
   const { isCollapsed, toggleIsCollapsed } = useLeftbarStore();
-
-  if(isCollapsed) {
     return (
       <Box
+        boxSizing={"border-box"}
+        height={"100vh"}
         position={"fixed"}
-        top={"0"}
-        left={"0"}
-        bottom={"0"}
-      >
-        <LeftbarToggle
-          isCollapsed={isCollapsed}
-          toggleIsCollapsed={toggleIsCollapsed}
-        />
-      </Box>
-    );
-  } else {
-    return (
-      <Box
-        position={"fixed"}
-        top={"0"}
-        left={"0"}
-        bottom={"0"}
       >
         <LeftbarToggle
           isCollapsed={isCollapsed}
@@ -41,6 +24,8 @@ export default function Leftbar() {
           <></>
         ) : (
           <Box
+            boxSizing={"border-box"}
+            height={"100vh"}
             width={"300px"}
             padding={"25px 15px"}
             backgroundColor={rp.app.leftbarBg}
@@ -61,4 +46,4 @@ export default function Leftbar() {
       </Box>
     );  
   }
-}
+
