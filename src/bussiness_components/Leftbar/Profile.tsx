@@ -15,8 +15,8 @@ export default function Profile() {
     >
       <Image
         src={"/images/profile_picture.png"}
-        height={"50px"}
-        width={"50px"}
+        height={"20%"}
+        width={"20%"}
         borderRadius={"50%"}
         objectFit={"cover"}
         border={`2px solid ${rp.app.border}`}

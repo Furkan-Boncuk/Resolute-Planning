@@ -22,7 +22,7 @@ export default function Templates() {
     >
       <Flex alignItems={"center"} gap={"8px"}>
         <FontAwesomeIcon icon={faBoxOpen} />
-        <Text>Templates</Text>
+        <Text lineHeight={"0.5"}>Templates</Text>
       </Flex>
       <Box pr={"10px"}>
         <FontAwesomeIcon icon={faChevronRight} />

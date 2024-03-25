@@ -73,32 +73,32 @@ export default function PlanDirectory() {
         // minHeight={"75px"}
         // height={"auto"}
         // maxHeight={"200px"}
-        height={"650px"}
+        height={"60vh"}
         backgroundColor={rp.app.folderBg}
         padding={"0px 10px"}
         borderRadius={"5px"}
         overflowY={"auto"}
       >
-        <Flex direction={"column"} fontSize={"16px"} pl={"12px"} >
+        <Flex direction={"column"} fontSize={"1rem"} pl={"12px"} >
           {plans?.directories?.map((directory, index) => (
             <Flex direction={"column"}>
               <Flex
                 key={index}
                 alignItems={"center"}
                 gap={"8px"}
-                cursor={"pointer"}
                 fontSize={"17px"}
                 onClick={() => toggleFolderState(directory.dirName)}
               >
                 {folderStates[directory?.dirName] ? (
-                  <FontAwesomeIcon icon={faFolderOpen} />
+                  <FontAwesomeIcon cursor={"pointer"} icon={faFolderOpen} />
                 ) : (
                   <FontAwesomeIcon
+                    cursor={"pointer"}
                     icon={faFolder}
                     color={rp.app.folder}
                   />
                 )}
-                <Text fontWeight={400}>
+                <Text fontWeight={400} lineHeight={"0"} cursor={"pointer"}>
                   {directory.dirName}
                 </Text>
               </Flex>
@@ -111,8 +111,8 @@ export default function PlanDirectory() {
                       cursor={"pointer"}
                       color={rp.app.file}
                     >
-                      <FontAwesomeIcon icon={faFile} />
-                      <Text fontWeight={400}>
+                      <FontAwesomeIcon icon={faFile} cursor={"pointer"} />
+                      <Text fontWeight={400} lineHeight={"0"} cursor={"pointer"}>
                         {file.fileName}
                       </Text>
                     </Flex>
