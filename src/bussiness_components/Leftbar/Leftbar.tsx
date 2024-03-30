@@ -1,6 +1,6 @@
 import { Box, Flex } from "@chakra-ui/react";
 import { rp } from "../../../public/colors/colors";
-import Templates from "./Templates";
+import Templates from "./Search";
 import PlanDirectory from "./PlanDirectorySection";
 import Profile from "./Profile";
 import useLeftbarStore from "../../stores/leftbarStore";

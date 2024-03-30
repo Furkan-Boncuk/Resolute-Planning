@@ -1,5 +1,5 @@
 import { Box, Button, Flex, Input, Text } from "@chakra-ui/react";
-import { rp } from "../../../public/colors/colors";
+import { rp } from "../../../../public/colors/colors";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTag } from "@fortawesome/free-solid-svg-icons";
 import CalendarTopic from "./CalendarTopic";

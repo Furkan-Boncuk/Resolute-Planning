@@ -1,7 +1,7 @@
 import { Flex, Text } from "@chakra-ui/react";
-import { rp } from "../../../public/colors/colors";
-import useDateStore from "../../stores/dateStore";
-import CalendarTest from "../../elements/CalendarTest";
+import { rp } from "../../../../public/colors/colors";
+import useDateStore from "../../../stores/dateStore";
+import CalendarTest from "../../../elements/CalendarTest";
 import React from "react";
 
 export default function Calendar() {

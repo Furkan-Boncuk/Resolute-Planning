@@ -1,5 +1,5 @@
 import { Box } from "@chakra-ui/react";
-import { rp } from "../../../public/colors/colors";
+import { rp } from "../../../../public/colors/colors";
 import React from "react";
 
 export default function DailyTodos() {

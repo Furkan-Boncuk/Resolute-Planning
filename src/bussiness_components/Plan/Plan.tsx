@@ -1,5 +1,5 @@
 import { Flex } from "@chakra-ui/react";
-import CalendarPlanTemplate from "../../ui-components/PlanTemplate/CalendarPlanTemplate";
+import CalendarPlanTemplate from "./PlanTemplate/CalendarPlanTemplate";
 import useLeftbarStore from "../../stores/leftbarStore";
 import React from "react";
 

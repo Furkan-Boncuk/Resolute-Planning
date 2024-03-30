@@ -6,7 +6,7 @@ import {
   faTag,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { rp } from "../../../public/colors/colors";
+import { rp } from "../../../../public/colors/colors";
 import React from "react";
 
 export default function CalendarTopic() {
