@@ -25,7 +25,7 @@ export default function Todo({todoStatus}: TodoProps) {
         color={rp.app.textSoft}
         lineHeight={"normal"}
       >
-        Toplantıya girilecek.
+        lorem ipsum dolor sit amet
       </Text>
     </Box>
   );
